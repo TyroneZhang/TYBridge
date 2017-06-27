@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16B2548a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="0IS-9X-nDu">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="lij-JK-UrJ">
+            <objects>
+                <navigationController id="0IS-9X-nDu" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UZY-tb-85g">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="EaB-px-fpd" kind="relationship" relationship="rootViewController" id="DYj-zf-0Em"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tt7-j8-Pzg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-438" y="-45"/>
+        </scene>
+        <!--TYBridge-->
+        <scene sceneID="VHF-NZ-POJ">
+            <objects>
+                <viewController id="EaB-px-fpd" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Txl-DJ-cCW"/>
+                        <viewControllerLayoutGuide type="bottom" id="2l1-2i-oGt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="LjZ-nG-Xi7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HU4-kd-477">
+                                <rect key="frame" x="141.5" y="318.5" width="92" height="30"/>
+                                <state key="normal" title="加载一个网友"/>
+                                <connections>
+                                    <segue destination="ghf-PJ-L7Q" kind="show" id="y4w-fH-zvr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="HU4-kd-477" firstAttribute="centerY" secondItem="LjZ-nG-Xi7" secondAttribute="centerY" id="ckp-cX-2Wf"/>
+                            <constraint firstItem="HU4-kd-477" firstAttribute="centerX" secondItem="LjZ-nG-Xi7" secondAttribute="centerX" id="ibd-M0-cMN"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="TYBridge" id="35B-2d-J2A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5lg-1c-alG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="386" y="-45"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mJE-8e-8vG">
+            <objects>
+                <viewController id="ghf-PJ-L7Q" customClass="ViewController" customModule="DSBridgeDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6FO-av-8ob"/>
+                        <viewControllerLayoutGuide type="bottom" id="Tjp-CC-o3b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="u7W-cK-Zgo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fwL-HE-D3b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1228" y="-45"/>
+        </scene>
+    </scenes>
+</document>

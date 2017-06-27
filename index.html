@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>bridge test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<style type="text/css">
+    .btn {
+        text-align: center;
+        font-size: 17px;
+        background-color: #0077ff;
+        color: white;
+        margin-top: 20px;
+        height: 40px;
+    }
+</style>
+<body>
+    <div class="btn" onclick="callLog()">同步调用</div>
+    <div class="btn" onclick="callPrompt()">单纯的prompt</div>
+    <div class="btn" onclick="callConfirm()">单纯的confrim</div>
+    <div class="btn" onclick="sum()">同步调用，计算1+2</div>
+    <div class="btn" onclick="requestData()">异步请求数据</div>
+    <script type="text/javascript">
+
+        var bridge = getJsBridge();
+
+        function callLog() {
+            var result = bridge.call("logMessage", {msg: "this is message"});
+            alert(result);
+        }
+
+        function callPrompt() {
+            alert(prompt('输入你的名字', 'TyroneZhang'));
+        }
+
+        function callConfirm() {
+            alert(confirm('是否喜欢本demo？'));
+        }
+
+        function sum() {
+            alert(bridge.call("sum", {"num1": 1, "num2": 2}));
+        }
+
+        function requestData() {
+            bridge.call("fetchData", {"num1": 1, "num2": 2}, function (v) {
+                alert(v);
+            });
+        }
+
+    </script>
+</body>
+</html>

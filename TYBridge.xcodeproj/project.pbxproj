@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52568E801F02B554003E7D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568E7F1F02B554003E7D8A /* AppDelegate.swift */; };
+		52568E821F02B554003E7D8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568E811F02B554003E7D8A /* ViewController.swift */; };
+		52568E851F02B554003E7D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52568E831F02B554003E7D8A /* Main.storyboard */; };
+		52568E871F02B554003E7D8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52568E861F02B554003E7D8A /* Assets.xcassets */; };
+		52568E8A1F02B554003E7D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52568E881F02B554003E7D8A /* LaunchScreen.storyboard */; };
+		52568E951F02B554003E7D8A /* TYBridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568E941F02B554003E7D8A /* TYBridgeTests.swift */; };
+		52568EA01F02B554003E7D8A /* TYBridgeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568E9F1F02B554003E7D8A /* TYBridgeUITests.swift */; };
+		52568EB21F02B5BC003E7D8A /* TYWKWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568EAE1F02B5BC003E7D8A /* TYWKWebView.swift */; };
+		52568EB31F02B5BC003E7D8A /* TYJSBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568EAF1F02B5BC003E7D8A /* TYJSBridge.swift */; };
+		52568EB41F02B5BC003E7D8A /* TYJSBridgeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568EB01F02B5BC003E7D8A /* TYJSBridgeHelper.swift */; };
+		52568EB51F02B5BC003E7D8A /* TestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52568EB11F02B5BC003E7D8A /* TestApi.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52568E911F02B554003E7D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52568E741F02B554003E7D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52568E7B1F02B554003E7D8A;
+			remoteInfo = TYBridge;
+		};
+		52568E9C1F02B554003E7D8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52568E741F02B554003E7D8A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52568E7B1F02B554003E7D8A;
+			remoteInfo = TYBridge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52568E7C1F02B554003E7D8A /* TYBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52568E7F1F02B554003E7D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52568E811F02B554003E7D8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52568E841F02B554003E7D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52568E861F02B554003E7D8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52568E891F02B554003E7D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52568E8B1F02B554003E7D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52568E901F02B554003E7D8A /* TYBridgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYBridgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52568E941F02B554003E7D8A /* TYBridgeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBridgeTests.swift; sourceTree = "<group>"; };
+		52568E961F02B554003E7D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52568E9B1F02B554003E7D8A /* TYBridgeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TYBridgeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52568E9F1F02B554003E7D8A /* TYBridgeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBridgeUITests.swift; sourceTree = "<group>"; };
+		52568EA11F02B554003E7D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52568EAE1F02B5BC003E7D8A /* TYWKWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYWKWebView.swift; sourceTree = "<group>"; };
+		52568EAF1F02B5BC003E7D8A /* TYJSBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYJSBridge.swift; sourceTree = "<group>"; };
+		52568EB01F02B5BC003E7D8A /* TYJSBridgeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TYJSBridgeHelper.swift; sourceTree = "<group>"; };
+		52568EB11F02B5BC003E7D8A /* TestApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestApi.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52568E791F02B554003E7D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E8D1F02B554003E7D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E981F02B554003E7D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52568E731F02B554003E7D8A = {
+			isa = PBXGroup;
+			children = (
+				52568E7E1F02B554003E7D8A /* TYBridge */,
+				52568E931F02B554003E7D8A /* TYBridgeTests */,
+				52568E9E1F02B554003E7D8A /* TYBridgeUITests */,
+				52568E7D1F02B554003E7D8A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52568E7D1F02B554003E7D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52568E7C1F02B554003E7D8A /* TYBridge.app */,
+				52568E901F02B554003E7D8A /* TYBridgeTests.xctest */,
+				52568E9B1F02B554003E7D8A /* TYBridgeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52568E7E1F02B554003E7D8A /* TYBridge */ = {
+			isa = PBXGroup;
+			children = (
+				52568EAD1F02B5A2003E7D8A /* TYBridge */,
+				52568E7F1F02B554003E7D8A /* AppDelegate.swift */,
+				52568E811F02B554003E7D8A /* ViewController.swift */,
+				52568E831F02B554003E7D8A /* Main.storyboard */,
+				52568E861F02B554003E7D8A /* Assets.xcassets */,
+				52568E881F02B554003E7D8A /* LaunchScreen.storyboard */,
+				52568E8B1F02B554003E7D8A /* Info.plist */,
+			);
+			path = TYBridge;
+			sourceTree = "<group>";
+		};
+		52568E931F02B554003E7D8A /* TYBridgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				52568E941F02B554003E7D8A /* TYBridgeTests.swift */,
+				52568E961F02B554003E7D8A /* Info.plist */,
+			);
+			path = TYBridgeTests;
+			sourceTree = "<group>";
+		};
+		52568E9E1F02B554003E7D8A /* TYBridgeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52568E9F1F02B554003E7D8A /* TYBridgeUITests.swift */,
+				52568EA11F02B554003E7D8A /* Info.plist */,
+			);
+			path = TYBridgeUITests;
+			sourceTree = "<group>";
+		};
+		52568EAD1F02B5A2003E7D8A /* TYBridge */ = {
+			isa = PBXGroup;
+			children = (
+				52568EAE1F02B5BC003E7D8A /* TYWKWebView.swift */,
+				52568EAF1F02B5BC003E7D8A /* TYJSBridge.swift */,
+				52568EB01F02B5BC003E7D8A /* TYJSBridgeHelper.swift */,
+				52568EB11F02B5BC003E7D8A /* TestApi.swift */,
+			);
+			path = TYBridge;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52568E7B1F02B554003E7D8A /* TYBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52568EA41F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridge" */;
+			buildPhases = (
+				52568E781F02B554003E7D8A /* Sources */,
+				52568E791F02B554003E7D8A /* Frameworks */,
+				52568E7A1F02B554003E7D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYBridge;
+			productName = TYBridge;
+			productReference = 52568E7C1F02B554003E7D8A /* TYBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52568E8F1F02B554003E7D8A /* TYBridgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52568EA71F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridgeTests" */;
+			buildPhases = (
+				52568E8C1F02B554003E7D8A /* Sources */,
+				52568E8D1F02B554003E7D8A /* Frameworks */,
+				52568E8E1F02B554003E7D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52568E921F02B554003E7D8A /* PBXTargetDependency */,
+			);
+			name = TYBridgeTests;
+			productName = TYBridgeTests;
+			productReference = 52568E901F02B554003E7D8A /* TYBridgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52568E9A1F02B554003E7D8A /* TYBridgeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52568EAA1F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridgeUITests" */;
+			buildPhases = (
+				52568E971F02B554003E7D8A /* Sources */,
+				52568E981F02B554003E7D8A /* Frameworks */,
+				52568E991F02B554003E7D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52568E9D1F02B554003E7D8A /* PBXTargetDependency */,
+			);
+			name = TYBridgeUITests;
+			productName = TYBridgeUITests;
+			productReference = 52568E9B1F02B554003E7D8A /* TYBridgeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52568E741F02B554003E7D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Tyrone Zhang";
+				TargetAttributes = {
+					52568E7B1F02B554003E7D8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9HQ27ZS5C;
+						ProvisioningStyle = Automatic;
+					};
+					52568E8F1F02B554003E7D8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9HQ27ZS5C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52568E7B1F02B554003E7D8A;
+					};
+					52568E9A1F02B554003E7D8A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = Z9HQ27ZS5C;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 52568E7B1F02B554003E7D8A;
+					};
+				};
+			};
+			buildConfigurationList = 52568E771F02B554003E7D8A /* Build configuration list for PBXProject "TYBridge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52568E731F02B554003E7D8A;
+			productRefGroup = 52568E7D1F02B554003E7D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52568E7B1F02B554003E7D8A /* TYBridge */,
+				52568E8F1F02B554003E7D8A /* TYBridgeTests */,
+				52568E9A1F02B554003E7D8A /* TYBridgeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52568E7A1F02B554003E7D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52568E8A1F02B554003E7D8A /* LaunchScreen.storyboard in Resources */,
+				52568E871F02B554003E7D8A /* Assets.xcassets in Resources */,
+				52568E851F02B554003E7D8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E8E1F02B554003E7D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E991F02B554003E7D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52568E781F02B554003E7D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52568EB41F02B5BC003E7D8A /* TYJSBridgeHelper.swift in Sources */,
+				52568EB21F02B5BC003E7D8A /* TYWKWebView.swift in Sources */,
+				52568EB51F02B5BC003E7D8A /* TestApi.swift in Sources */,
+				52568E821F02B554003E7D8A /* ViewController.swift in Sources */,
+				52568EB31F02B5BC003E7D8A /* TYJSBridge.swift in Sources */,
+				52568E801F02B554003E7D8A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E8C1F02B554003E7D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52568E951F02B554003E7D8A /* TYBridgeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52568E971F02B554003E7D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52568EA01F02B554003E7D8A /* TYBridgeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52568E921F02B554003E7D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52568E7B1F02B554003E7D8A /* TYBridge */;
+			targetProxy = 52568E911F02B554003E7D8A /* PBXContainerItemProxy */;
+		};
+		52568E9D1F02B554003E7D8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52568E7B1F02B554003E7D8A /* TYBridge */;
+			targetProxy = 52568E9C1F02B554003E7D8A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52568E831F02B554003E7D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52568E841F02B554003E7D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52568E881F02B554003E7D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52568E891F02B554003E7D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52568EA21F02B554003E7D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52568EA31F02B554003E7D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52568EA51F02B554003E7D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		52568EA61F02B554003E7D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridge";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		52568EA81F02B554003E7D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYBridge.app/TYBridge";
+			};
+			name = Debug;
+		};
+		52568EA91F02B554003E7D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridgeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TYBridge.app/TYBridge";
+			};
+			name = Release;
+		};
+		52568EAB1F02B554003E7D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TYBridge;
+			};
+			name = Debug;
+		};
+		52568EAC1F02B554003E7D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z9HQ27ZS5C;
+				INFOPLIST_FILE = TYBridgeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-24247693.TYBridgeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TYBridge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52568E771F02B554003E7D8A /* Build configuration list for PBXProject "TYBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52568EA21F02B554003E7D8A /* Debug */,
+				52568EA31F02B554003E7D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52568EA41F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52568EA51F02B554003E7D8A /* Debug */,
+				52568EA61F02B554003E7D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52568EA71F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52568EA81F02B554003E7D8A /* Debug */,
+				52568EA91F02B554003E7D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52568EAA1F02B554003E7D8A /* Build configuration list for PBXNativeTarget "TYBridgeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52568EAB1F02B554003E7D8A /* Debug */,
+				52568EAC1F02B554003E7D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52568E741F02B554003E7D8A /* Project object */;
+}
